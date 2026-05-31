@@ -1,4 +1,4 @@
-FROM python:3.8-slim as python-base
+FROM python:3.8-slim AS python-base
 ENV DOCKER=true
 ENV GIT_PYTHON_REFRESH=quiet
 ENV PYTHONUNBUFFERED=1
